@@ -15,15 +15,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func button1Alert(_ sender: Any) {
+    @IBAction func button1Alert(_ sender: AlertButton) {
         
     }
     
-    @IBAction func button2Alert(_ sender: Any) {
+    @IBAction func button2Alert(_ sender: AlertButton) {
         
     }
     
-    @IBAction func button3Alert(_ sender: Any) {
+    @IBAction func button3Alert(_ sender: AlertButton) {
         
     }
 }

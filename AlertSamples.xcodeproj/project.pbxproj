@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E543CF4823A9049500105A8A /* AlertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543CF4723A9049500105A8A /* AlertButton.swift */; };
+		E543CF4A23A905A100105A8A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543CF4923A905A100105A8A /* Colors.swift */; };
+		E543CF4C23A908AF00105A8A /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543CF4B23A908AF00105A8A /* Alert.swift */; };
 		E5F054B323A8FCB800EFF2FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F054B223A8FCB800EFF2FB /* AppDelegate.swift */; };
 		E5F054B523A8FCB800EFF2FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F054B423A8FCB800EFF2FB /* ViewController.swift */; };
 		E5F054B823A8FCB800EFF2FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F054B623A8FCB800EFF2FB /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E543CF4723A9049500105A8A /* AlertButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertButton.swift; sourceTree = "<group>"; };
+		E543CF4923A905A100105A8A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		E543CF4B23A908AF00105A8A /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		E5F054AF23A8FCB800EFF2FB /* AlertSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F054B223A8FCB800EFF2FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5F054B423A8FCB800EFF2FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,7 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				E5F054B223A8FCB800EFF2FB /* AppDelegate.swift */,
+				E543CF4B23A908AF00105A8A /* Alert.swift */,
+				E543CF4723A9049500105A8A /* AlertButton.swift */,
 				E5F054B423A8FCB800EFF2FB /* ViewController.swift */,
+				E543CF4923A905A100105A8A /* Colors.swift */,
 				E5F054B623A8FCB800EFF2FB /* Main.storyboard */,
 				E5F054B923A8FCBA00EFF2FB /* Assets.xcassets */,
 				E5F054BB23A8FCBA00EFF2FB /* LaunchScreen.storyboard */,
@@ -136,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5F054B523A8FCB800EFF2FB /* ViewController.swift in Sources */,
+				E543CF4A23A905A100105A8A /* Colors.swift in Sources */,
 				E5F054B323A8FCB800EFF2FB /* AppDelegate.swift in Sources */,
+				E543CF4C23A908AF00105A8A /* Alert.swift in Sources */,
+				E543CF4823A9049500105A8A /* AlertButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
