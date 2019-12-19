@@ -16,15 +16,15 @@ class ViewController: UIViewController {
     }
 
     @IBAction func button1Alert(_ sender: AlertButton) {
-        
+        Alert.showIncompleteFormAlert(on: self)
     }
     
     @IBAction func button2Alert(_ sender: AlertButton) {
-        
+        Alert.showIncompleteEmailAlert(on: self)
     }
     
     @IBAction func button3Alert(_ sender: AlertButton) {
-        
+        Alert.showUnableRetreveDataAlert(on: self)
     }
 }
 
